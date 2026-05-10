@@ -47,6 +47,15 @@ jobs:
         run: |
           bundle install
           bundle exec jekyll -v
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - name: Build frontend assets
+        run: |
+          npm install
+          npm run build
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
