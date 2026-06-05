@@ -1,20 +1,12 @@
-# frozen_string_literal: true
-
 source "https://rubygems.org"
 
-#gem "jekyll", "~> 4.3"
-#gem "jekyll-theme-chirpy"
-
-gemspec
+gem "jekyll", "~> 4.3"
 
 group :jekyll_plugins do
-  gem "jekyll-archives"
-  gem "jekyll-sitemap"
   gem "jekyll-seo-tag"
-  gem "jekyll-paginate-v2"
+  gem "jekyll-sitemap"
+  gem "jekyll-feed"
 end
-
-gem "html-proofer", "~> 5.0", group: :test
 
 platforms :windows, :jruby do
   gem "tzinfo", ">= 1", "< 3"

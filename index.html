@@ -1,4 +1,188 @@
 ---
-layout: home
-# Index page
+layout: default
 ---
+<div class="container">
+
+  <!-- Profile -->
+  <section class="profile">
+    <img src="{{ '/assets/img/avatar.jpg' | relative_url }}" alt="Tae Koan Yoo" class="avatar">
+    <div class="profile-info">
+      <h1>Tae Koan Yoo</h1>
+      <p class="role">Senior Research Engineer · NHN Corporation</p>
+      <div class="links">
+        <a href="mailto:tk.yoo@g.skku.edu">Email</a>
+        <a href="https://github.com/tkayyoo" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://tkayyoo.tistory.com/1" target="_blank" rel="noopener">Blog</a>
+        <a href="{{ '/assets/cv.pdf' | relative_url }}" target="_blank" rel="noopener">CV</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section>
+    <h2>About</h2>
+    <div class="about-text">
+      <p>
+        I am a Senior Research Engineer in the Multi-modal Development Team at
+        <a href="https://www.nhn.com" target="_blank" rel="noopener">NHN Corporation</a>,
+        where I lead research and development on generative AI for music and visual content creation.
+        Prior to NHN, I was a Research Engineer at Hyundai Motor Company, working on
+        camera–LiDAR fusion for autonomous driving perception.
+      </p>
+      <p>
+        My research interests lie in <strong>multimodal representation learning</strong>,
+        <strong>controllable generative models</strong>, <strong>diffusion models</strong>,
+        and <strong>latent space geometry</strong>.
+        I received my M.S. in Electrical and Computer Engineering from Sungkyunkwan University.
+      </p>
+    </div>
+  </section>
+
+  <!-- Publications -->
+  <section>
+    <h2>Publications</h2>
+    <ul class="pub-list">
+
+      <li class="pub-item">
+        <div class="pub-thumb">
+          <img src="{{ '/assets/img/papers/pads-tal.png' | relative_url }}" alt="PADS-TAL thumbnail">
+        </div>
+        <div class="pub-body">
+          <div class="pub-title">PADS-TAL: Padding Annealed Diffusion Sampling in Text-Aware Latent Space for Robust and Diverse Text-to-Music Generation</div>
+          <div class="pub-authors"><strong>T. K. Yoo</strong>, W. K. Jung, K. H. Kim, K. B. Kong</div>
+          <div class="pub-venue"><span class="conf-highlight">ICML 2026</span></div>
+          <div class="pub-links">
+            <a href="https://pads-tal.github.io/PADS-TAL.io/" target="_blank" rel="noopener">Project</a>
+            <a href="https://openreview.net/forum?id=c0iisI5tJj" target="_blank" rel="noopener">OpenReview</a>
+            <a href="https://github.com/PADS-TAL/PADS-TAL" target="_blank" rel="noopener">Code</a>
+          </div>
+        </div>
+      </li>
+
+      <li class="pub-item">
+        <div class="pub-thumb">
+          <img src="{{ '/assets/img/papers/thesis-2020.png' | relative_url }}" alt="Thesis 2020 thumbnail">
+        </div>
+        <div class="pub-body">
+          <div class="pub-title">Minimizing Required Data in a Neural Network Accelerator Using Double-Stage Weight Sharing</div>
+          <div class="pub-authors"><strong>T. K. Yoo</strong></div>
+          <div class="pub-venue"><em>Master's Thesis, Sungkyunkwan University</em>, 2020</div>
+          <div class="pub-links">
+            <a href="{{ '/assets/pdf/thesis-2020.pdf' | relative_url }}" target="_blank" rel="noopener">PDF</a>
+          </div>
+        </div>
+      </li>
+
+      <li class="pub-item">
+        <div class="pub-thumb">
+          <img src="{{ '/assets/img/papers/isocc-2019.png' | relative_url }}" alt="ISOCC 2019 thumbnail">
+        </div>
+        <div class="pub-body">
+          <div class="pub-title">VLSI Implementation of Area-Efficient Parallelized Neural Network Accelerator Using Hashing Trick</div>
+          <div class="pub-authors"><strong>T. K. Yoo</strong>, J. K. Park, J. T. Kim</div>
+          <div class="pub-venue"><em>International SoC Design Conference (ISOCC)</em>, 2019</div>
+          <div class="pub-links">
+            <a href="{{ '/assets/pdf/isocc-2019.pdf' | relative_url }}" target="_blank" rel="noopener">PDF</a>
+          </div>
+        </div>
+      </li>
+
+      <li class="pub-item">
+        <div class="pub-thumb">
+          <img src="{{ '/assets/img/papers/kcc-2018.png' | relative_url }}" alt="KCC 2018 thumbnail">
+        </div>
+        <div class="pub-body">
+          <div class="pub-title">Analysis on Accelerating Object Detection in Edge Device with Half-Precision Floating Point</div>
+          <div class="pub-authors"><strong>T. K. Yoo</strong>, G. H. Hong, D. K. Shin</div>
+          <div class="pub-venue"><em>Korea Computer Congress (KCC)</em>, 2018</div>
+          <div class="pub-links">
+            <a href="{{ '/assets/pdf/kcc-2018.pdf' | relative_url }}" target="_blank" rel="noopener">PDF</a>
+          </div>
+        </div>
+      </li>
+
+      <li class="pub-item">
+        <div class="pub-thumb">
+          <img src="{{ '/assets/img/papers/kcc-2017.png' | relative_url }}" alt="KCC 2017 thumbnail">
+        </div>
+        <div class="pub-body">
+          <div class="pub-title">Optimizing Trim Operations by In-Storage Processing</div>
+          <div class="pub-authors"><strong>T. K. Yoo</strong>, K. H. Han, D. K. Shin</div>
+          <div class="pub-venue"><em>Korea Computer Congress (KCC)</em>, 2017</div>
+          <div class="pub-links">
+            <a href="{{ '/assets/pdf/kcc-2017.pdf' | relative_url }}" target="_blank" rel="noopener">PDF</a>
+          </div>
+        </div>
+      </li>
+
+    </ul>
+  </section>
+
+  <!-- Patents -->
+  <section>
+    <h2>Patents</h2>
+    <ul class="patent-list">
+
+      <li class="patent-item">
+        <span><strong>T. K. Yoo</strong>, W. K. Jung, K. H. Kim, "Method and System for Generating Audio Source Incorporating User-Specified Melody Using a Diffusion Model"<span class="patent-tag">KR App.</span></span>
+      </li>
+
+      <li class="patent-item">
+        <span>K. H. Kim, <strong>T. K. Yoo</strong>, "Method and System for Generating Music Using Diffusion Model Based on BPM Measurement"<span class="patent-tag">KR App.</span></span>
+      </li>
+
+      <li class="patent-item">
+        <span><strong>T. K. Yoo</strong>, K. H. Kim, "Method and System for Generating Music Using Diffusion Model Based on Genre-Style Structured Information"<span class="patent-tag">KR App.</span></span>
+      </li>
+
+      <li class="patent-item">
+        <span>J. H. Lim, H. C. Choi, J. H. Kim, <strong>T. K. Yoo</strong>, "Object Recognition Apparatus and Vehicle Having the Same"<span class="patent-tag">US 2024/0046658</span></span>
+      </li>
+
+      <li class="patent-item">
+        <span>J. H. Kim, H. C. Choi, J. H. Lim, <strong>T. K. Yoo</strong>, "Apparatus and Method for Object Recognition"<span class="patent-tag">US 2024/0104935</span></span>
+      </li>
+
+      <li class="patent-item">
+        <span>J. T. Kim, <strong>T. K. Yoo</strong>, D. Y. Kim, "Neural Network Accelerator Using Double-Stage Weight Sharing"<span class="patent-tag">KR 10-2519210</span></span>
+      </li>
+
+    </ul>
+  </section>
+
+  <!-- Experience -->
+  <section>
+    <h2>Experience</h2>
+    <ul class="exp-list">
+
+      <li class="exp-item">
+        <div class="exp-header">
+          <span class="exp-org">NHN Corporation</span>
+          <span class="exp-period">2023 – Present</span>
+        </div>
+        <div class="exp-role">Senior Research Engineer, Multi-modal Development Team, AI Tech Lab</div>
+        <div class="exp-desc">Generative AI R&amp;D for music and visual content — diffusion-based text-to-music, text-to-image for webtoon character creation. End-to-end production service development with 3 patent applications.</div>
+      </li>
+
+      <li class="exp-item">
+        <div class="exp-header">
+          <span class="exp-org">Hyundai Motor Company</span>
+          <span class="exp-period">2020 – 2023</span>
+        </div>
+        <div class="exp-role">Research Engineer, Autonomous Driving SW Team</div>
+        <div class="exp-desc">Camera–LiDAR fusion for 3D object detection and road information recognition. Proposed the company's first fusion-based perception method; deployed in production vehicles. 2 registered patents.</div>
+      </li>
+
+      <li class="exp-item">
+        <div class="exp-header">
+          <span class="exp-org">Sungkyunkwan University</span>
+          <span class="exp-period">2018 – 2020</span>
+        </div>
+        <div class="exp-role">M.S., Electrical and Computer Engineering — GPA 4.04 / 4.5</div>
+        <div class="exp-desc">Deep learning optimization for embedded models (pruning, quantization). Proposed Double-Stage Weight Sharing, reducing model parameters by 80% while maintaining ~90% accuracy.</div>
+      </li>
+
+    </ul>
+  </section>
+
+</div>

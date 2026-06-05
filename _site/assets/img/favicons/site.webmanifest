@@ -1,9 +1,9 @@
 
 
 {
-  "name": "Chirpy",
-  "short_name": "Chirpy",
-  "description": "A minimal, responsive and feature-rich Jekyll theme for technical writing.",
+  "name": "T-Kay Yoo",
+  "short_name": "T-Kay Yoo",
+  "description": "Personal website",
   "icons": [
     {
       "src": "/assets/img/favicons/web-app-manifest-192x192.png",
@@ -22,4 +22,3 @@
   "background_color": "#ffffff",
   "display": "fullscreen"
 }
-
