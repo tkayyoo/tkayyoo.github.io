@@ -97,7 +97,7 @@ section {
 }
 
 section h2 {
-  font-size: 0.7rem;
+  font-size: 0.82rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.14em;
@@ -342,6 +342,36 @@ section h2 {
   line-height: 1.55;
 }
 
+/* ── Skills ── */
+.skills-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skills-item {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 16px;
+  padding: 11px 0;
+  border-bottom: 1px solid #ebebeb;
+  font-size: 0.86rem;
+  line-height: 1.6;
+}
+
+.skills-item:first-child {
+  border-top: 1px solid #ebebeb;
+}
+
+.skills-label {
+  font-weight: 600;
+  color: #111;
+}
+
+.skills-value {
+  color: #555;
+}
+
 /* ── Post page ── */
 .back-nav {
   margin-bottom: 48px;
@@ -497,6 +527,11 @@ section h2 {
   .exp-header {
     flex-direction: column;
     gap: 2px;
+  }
+
+  .skills-item {
+    grid-template-columns: 100px 1fr;
+    gap: 10px;
   }
 
   .post-header h1 {
