@@ -210,6 +210,19 @@ section h2 {
   color: #555;
 }
 
+.pub-venue .presenter-badge {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: #777;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 1px 6px;
+  margin-left: 6px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
 .pub-links {
   display: flex;
   gap: 6px;
